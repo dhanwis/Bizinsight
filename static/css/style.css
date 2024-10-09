@@ -353,7 +353,9 @@ p {
 .clock .icon,
 .envelope .icon,
 .location .icon{
-    margin-right: 10 px;
+   
+    margin-right: 11px;
+    margin-left: -84px;
 }
 .phone .text p, .clock .text p, .envelope .text p ,.location .text p{
     font-size: 10px;
@@ -381,19 +383,22 @@ p {
 
 .site-logo img {
     width: 100%;
+    margin-left: -87px;
 }
 
 .main-menu ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+   
+
+   
     
 }
 
 .main-menu ul li {
     margin-left: 38px;
     position: relative;
-    padding-left: 150px;
+    padding-left: 30px;
     
 }
 
