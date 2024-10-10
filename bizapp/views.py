@@ -18,3 +18,6 @@ def about(request):
 
 def service(request):
     return render(request,"service.html")
+
+def blog(request):
+    return render(request,"blog.html")

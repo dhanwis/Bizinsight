@@ -157,7 +157,7 @@ h6,
 p {
     font-size: 16px;
     font-weight: 400;
-    color: #647589;
+    color: #000000;
     margin-bottom: 0;
     line-height: 1.7;
 }
@@ -355,7 +355,7 @@ p {
 .location .icon{
    
     margin-right: 11px;
-    margin-left: -84px;
+    margin-left: -25px;
 }
 .phone .text p, .clock .text p, .envelope .text p ,.location .text p{
     font-size: 10px;
@@ -383,15 +383,13 @@ p {
 
 .site-logo img {
     width: 100%;
-    margin-left: -87px;
+    margin-left: -70px;
 }
 
 .main-menu ul {
     display: flex;
     align-items: center;
-   
 
-   
     
 }
 
@@ -781,11 +779,12 @@ button.slick-arrow svg {
     about-area
 ---------------------------------------------------------------------------------------*/
 .about{
-    padding: 188px 0 188px 0
+    padding: 160px 0 188px 0
 }
 .sub-heading{
     display: flex;
     align-items: center;
+
 }
 
 .sub-heading p{
@@ -900,6 +899,7 @@ button.slick-arrow svg {
 
 .about-img{
     position: relative;
+
 }
 .about-img img{
     width: 100%;

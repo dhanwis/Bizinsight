@@ -102,10 +102,10 @@
                 <a href="{% url 'servicepage' %}">Services</a>
               </li>
 
-              <li>
-                <a data-scroll href="#">Blogs</a>
+              {% comment %} <li>
+                <a data-scroll href="{% url 'blog' %}">Blogs</a>
             
-              </li>
+              </li> {% endcomment %}
 
               <li>
                 <a data-scroll href="{% url 'contactpage' %}">Contact</a>
