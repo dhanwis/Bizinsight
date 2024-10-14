@@ -64,72 +64,36 @@
   <section class="about">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6">
+        <!-- Text Section -->
+        <div class="col-lg-6 col-md-12">
           <div class="about-content">
             <div class="section-title">
               <div class="sub-heading">
                 <img src="{% static 'images/section-title-icon.png' %}" alt="caret">
                 <p>About Our Company</p>
               </div>
-              <h2>
-                Providing Expert Advice On Business Consulting,Planning & Success</h2>
+              <h2>Providing Expert Advice On Business Consulting, Planning & Success</h2>
             </div>
-
+  
             <div class="text-content" style="padding: 30px;">
-              <p>As Business Insight is positioned as a strategic growth partner and virtual CFO for startups, small, and medium-sized businesses, the unique selling proposition (USP) lies in our focus on facilitating growth and guiding your clients towards a successful and profitable future.We work hand-in-hand with you at every stage of your growth journey. Our process is designed to ensure that your financial strategies are well-aligned with your business objectives and that you have the support you need to succeed. We evaluate and make course corrections as per your needs to ensure that your plan is well-executed.</p>
-
-              {% comment %} <div class="progress-wrapper">
-                <div class="progress-one">
-                  <div class="progress-bar" data-percent="90" data-duration="1000"></div>
-                  <h5>Client Satisfied</h5>
-                </div> 
-
-                 <div class="progress-two">
-                  <div class="progress-bar" data-percent="75" data-duration="1000"></div>
-                  <h5>Financial
-                    Consultation</h5>
-                </div>
-              </div> 
-
-              <p class="padding-text">Ballan wrasse climbing gourami amur pike Arctic char, steelhead sprat sea lamprey
-                grunion. Old World knifefish pike conger burbot pollock herring? Tetra electric eel jellynose fish
-                inconnu murray cod treefish false trevally
-                orangespine.</p>  {% endcomment %}
-
-
+              <p>As Business Insight is positioned as a strategic growth partner and virtual CFO for startups, small, and medium-sized businesses, the unique selling proposition (USP) lies in our focus on facilitating growth and guiding your clients towards a successful and profitable future. We work hand-in-hand with you at every stage of your growth journey. Our process is designed to ensure that your financial strategies are well-aligned with your business objectives and that you have the support you need to succeed. We evaluate and make course corrections as per your needs to ensure that your plan is well-executed.</p>
+  
               <a class='button header-cta about-btn' href=''>Learn More</a>
             </div>
           </div>
         </div>
-
-        <div class="col-lg-6 r-margin-top">
-
-          <div class="about-img">
-            <img src="{% static 'images/homeimg.jpg' %}" alt="team">
-            <img src="{% static 'images/abt-overlay.png' %}" alt="overlay" class="overlay">
+  
+        <!-- Image Section -->
+        <div class="col-lg-6 col-md-12">
+          <div class="about-img position-relative">
+            <img src="{% static 'images/homeimg.jpg' %}" alt="team" class="img-fluid">
+            <img src="{% static 'images/abt-overlay.png' %}" alt="overlay" class="overlay position-absolute">
           </div>
-
-          {% comment %} <div class="experience">
-            <span>15</span>
-            <p>Years of experience</p>
-          </div> {% endcomment %}
-
-          {% comment %} <div class="quote">
-            <h5>We’re Committed For Creating Change.</h5>
-            <div class="quote-info">
-              <img src="{% static 'images/small-image.png' %}" alt="man">
-
-              <div class="meta-info">
-                <p>Joseph Colman</p>
-                <span>CEO & Founder</span>
-              </div>
-            </div>
-          </div> {% endcomment %}
-
         </div>
       </div>
     </div>
   </section>
+  
   <!-- About area ends -->
 
   <!-- Offer area starts -->
@@ -142,76 +106,55 @@
               <img src="{% static 'images/section-title-icon.png' %}" alt="caret">
               <p>What we offer</p>
             </div>
-            <h2>Business Insight provides expert services for small and
-              medium enterprises, including Business Registration,
-              Regulatory Compliance, Tax Filing, IPR management</h2>
+            <h2>Business Insight provides expert services for small and medium enterprises, including Business Registration, Regulatory Compliance, Tax Filing, IPR management</h2>
           </div>
         </div>
       </div>
-
+  
       <div class="row">
-        <div class="col-lg-4 r-mb">
+        <!-- First row of offers -->
+        <div class="col-lg-4 col-md-6 mb-4">
           <div class="offer-wrapper">
             <iconify-icon icon="fluent-mdl2:design"></iconify-icon>
             <h5>Financial Strategy</h5>
             <p>We work closely with your team to collaboratively develop a comprehensive financial strategy aligned with your business objectives, ensuring that you have a clear roadmap for growth.</p>
-            <a href='#'>Explore More <i class="fas fa-arrow-right"></i> </a>
+            <a href='#'>Explore More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
-
-        <div class="col-lg-4 r-mb">
+  
+        <div class="col-lg-4 col-md-6 mb-4">
           <div class="offer-wrapper">
             <iconify-icon icon="fluent:archive-settings-24-regular"></iconify-icon>
             <h5>CFO-as-a-Service</h5>
             <p>Our experienced CFOs provide ongoing financial management, insights, and guidance, acting as an integral part of your leadership team without the overhead of a full-time hire.</p>
-            <a href='#'>Explore More <i class="fas fa-arrow-right"></i> </a>
+            <a href='#'>Explore More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
-
-        <div class="col-lg-4 r-mb">
+  
+        <div class="col-lg-4 col-md-6 mb-4">
           <div class="offer-wrapper">
             <iconify-icon icon="carbon:application-web"></iconify-icon>
             <h5>Reporting and Analysis</h5>
             <p>We deliver timely, accurate, and actionable financial reports and analysis, empowering you to make informed decisions based on a deep understanding of your business's financial health.</p>
-            <a href=''>Explore More <i class="fas fa-arrow-right"></i> </a>
+            <a href=''>Explore More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
-
-        <div class="col-lg-4 margin-top">
+      </div>
+  
+      <!-- Second row, with Risk Management centered -->
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6">
           <div class="offer-wrapper">
             <iconify-icon icon="ant-design:radar-chart-outlined"></iconify-icon>
             <h5>Risk Management</h5>
             <p>Our experts ensure that your business stays compliant with all relevant financial regulations and proactively identify and mitigate potential risks, giving you peace of mind as you grow.</p>
-            <a href=''>Explore More <i class="fas fa-arrow-right"></i> </a>
+            <a href=''>Explore More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
-
-        {% comment %} <div class="col-lg-4 margin-top">
-          <div class="offer-wrapper">
-            <iconify-icon icon="ion:diamond-outline"></iconify-icon>
-            <h5>Manage Investments</h5>
-            <p>Since when has the concept of “marketing” existed? When it comes to fashion, people often think of
-              personal
-              accessories
-              that make a difference to help</p>
-            <a href='service-details.html'>Explore More <i class="fas fa-arrow-right"></i> </a>
-          </div>
-        </div> {% endcomment %}
-
-        {% comment %} <div class="col-lg-4 margin-top">
-          <div class="offer-wrapper">
-            <iconify-icon icon="bi:puzzle"></iconify-icon>
-            <h5>Startups Planning</h5>
-            <p>Since when has the concept of “marketing” existed? When it comes to fashion, people often think of
-              personal
-              accessories
-              that make a difference to help</p>
-            <a href='service-details.html'>Explore More <i class="fas fa-arrow-right"></i> </a>
-          </div>
-        </div> {% endcomment %}
       </div>
     </div>
   </section>
+  
   <!-- Offer area ends -->
 
   <!-- Counter starts -->
@@ -277,41 +220,31 @@
             </div>
 
             <div class="text-content">
-              <p class="first-child">Ballan wrasse climbing gourami amur pike Arctic char, steelhead sprat sea lamprey
-                grunion. Old World knifefish pike
-                conger burbot pollock herring?</p>
+              <p class="first-child">We don't just set strategies and walk away. Our team conducts regular audits and makes data driven adjustments to ensure that your financial strategies remain agile and effective, even as your business landscape evolves. Through continuous monitoring, we help you stay on track, identify potential issues early, and seize new opportunities as they arise.</p>
 
               <div class="list-wrapper">
                 <div class="list-content">
                   <i class="fas fa-check"></i>
-                  <p>High standards of professionalism, integrity. Establishment of close working relationships. Ballan
-                    wrasse climbing
-                    gourami amur pike Arctic char, steelhead sprat sea lamprey grunion</p>
+                  {% comment %} <h1>Strategic Consultation</h1> {% endcomment %}
+                  <p>
+                    We start by having an in-depth, one-on-one meeting with you to gain a thorough understanding of your business goals, potential obstacles, and growth aspirations. This allows us to tailor our approach to your specific needs and lay the foundation for a successful partnership.</p>
                 </div>
 
                 <div class="list-content">
                   <i class="fas fa-check"></i>
-                  <p>High standards of professionalism, integrity. Establishment of close working relationships. Ballan
-                    wrasse climbing
-                    gourami amur pike Arctic char, steelhead sprat sea lamprey grunion</p>
+                  <p>Our experienced team conducts a comprehensive analysis of your current financial situation and identifies the key performance indicators that will serve as a baseline for measuring future growth. This provides valuable insights into your financial health and helps us identify areas where we can make the most impact.</p>
                 </div>
 
                 <div class="list-content">
                   <i class="fas fa-check"></i>
-                  <p>High standards of professionalism, integrity. Establishment of close working relationships. Ballan
-                    wrasse climbing
-                    gourami amur pike Arctic char, steelhead sprat sea lamprey grunion</p>
+                  <p>We work closely with you to develop comprehensive financial forecasts that align with your long term vision and goals. We ensure that our projections are realistic, achievable, and fully aligned with your business strategy.</p>
+                </div>
+                <div class="list-content">
+                  <i class="fas fa-check"></i>
+                  <p>Our financial experts work hand-in-hand with your team to develop innovative strategies designed to optimize your financial performance and drive sustainable growth. We take a collaborative approach to strategic planning, leveraging our expertise and your industry knowledge to create a powerful, tailored growth plan</p>
                 </div>
               </div>
 
-              <div class="signature">
-                <img src="{% static 'images/signature.png' %}" alt="signature">
-
-                <div class="meta-info">
-                  <p>Joseph Colman</p>
-                  <span>CEO & Founder</span>
-                </div>
-              </div>
             </div>
           </div>
         </div>
