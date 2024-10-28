@@ -1161,6 +1161,7 @@ button.slick-arrow svg {
 .list-content p {
     padding-right: 15px;
     transition: .3s linear all;
+    margin-top: 6px;
 }
 .list-content:hover {
     cursor: pointer;
