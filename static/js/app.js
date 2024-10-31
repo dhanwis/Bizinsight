@@ -671,3 +671,5 @@
     $('select').niceSelect();
 
 }(jQuery));
+
+// click function

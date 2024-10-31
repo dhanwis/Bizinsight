@@ -429,7 +429,9 @@ p {
 .main-menu ul li:hover>a{
     color: #0D7DFC;
 }
-
+/* .main-menu ul li a.active {
+    color: #0D7DFC;
+} */
 .main-menu ul .header-cta:hover>a {
     color: #fff;
 }
