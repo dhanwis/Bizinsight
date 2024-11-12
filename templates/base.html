@@ -39,7 +39,8 @@
   <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
 <body>
     {% include 'header.html' %}
     {% block content %}
@@ -72,18 +73,10 @@
   <script src="../code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
   <!-- main -->
   <script src="{% static 'js/app.js' %}"></script> 
-  <script> // Select all menu links
-    const menuLinks = document.querySelectorAll('.main-menu ul li a');
-   
-    // Loop through each link
-    menuLinks.forEach(link => {
-      link.addEventListener('click', function() {
-        // Remove active class from all links
-        menuLinks.forEach(item => item.classList.remove('active'));
-        
-        // Add active class to the clicked link
-        this.classList.add('active');
-      });
-    });</script>   
+    <!--animtions css-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
