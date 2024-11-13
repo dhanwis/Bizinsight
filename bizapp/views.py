@@ -4,10 +4,6 @@ from django.shortcuts import render
 def home(request):
     return render(request,"home.html")
 
-def index(request):
-    return render(request,"home-2.html")
-
-
 def contact(request):
     return render(request,"contact.html")
 
